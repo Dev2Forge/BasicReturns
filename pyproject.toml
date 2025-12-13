@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "BasicReturns"
-version = "0.1.0"
+version = "0.1.1a1"
 description = "Standardizes function return values across Python applications to enhance code consistency, readability, and maintainability."
 readme = { file = "README.md", content-type = "text/markdown", charset = "utf-8" }
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "Dev2Forge", email = "support@dev2forge.software" }]
 maintainers = [{ name = "tutosrive", email = "tutosriveorg@gmail.com" }]
 
@@ -37,11 +37,12 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Typing :: Typed",
     "Environment :: Console"
 ]
+
+dependencies = ["pydantic==2.12.5"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
