@@ -2,11 +2,10 @@
 All functions ever return the same models with particulars properties
 """
 
-from dataclasses import dataclass
 from typing import Any, Optional
+from pydantic import BaseModel
 
-@dataclass(kw_only=True)
-class BasicReturn:
+class BasicReturn(BaseModel):
     """Have a basic return model, contains `ok` and `error` properties.
 
     Attributes
@@ -25,7 +24,6 @@ class BasicReturn:
         """Get a self representation as dictionary"""
         return{"ok": self.ok, "error": self.error}
 
-@dataclass(kw_only=True)
 class DataAndMsgReturn(BasicReturn):
     """Get a object return with basic properties (`ok`, `error`) and `msg` and `data` properties
     
