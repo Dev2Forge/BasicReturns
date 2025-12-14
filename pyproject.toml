@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "BasicReturns"
-version = "0.1.1"
+version = "0.1.2"
 description = "Standardizes function return values across Python applications to enhance code consistency, readability, and maintainability."
 readme = { file = "README.md", content-type = "text/markdown", charset = "utf-8" }
 license = "MIT"
