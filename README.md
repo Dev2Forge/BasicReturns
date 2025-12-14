@@ -1,8 +1,10 @@
 # BasicReturns 🐍
 
 [![PyPI Version](https://img.shields.io/pypi/v/BasicReturns.svg)](https://pypi.org/project/BasicReturns/)
-[![Python Version](https://img.shields.io/pypi/pyversions/BasicReturns.svg)](https://pypi.org/project/BasicReturns/)
-[![License](https://img.shields.io/pypi/l/BasicReturns.svg)](https://opensource.org/licenses/MIT)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/BasicReturns?labelColor=black&color=orange)](https://pypi.org/project/BasicReturns/)
+[![PyPI - License](https://img.shields.io/pypi/l/BasicReturns?logoColor=orange&labelColor=black&color=orange)
+](https://opensource.org/licenses/MIT)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/initvenv?period=total&units=NONE&left_color=BLACK&right_color=ORANGE&left_text=downloads)](https://pepy.tech/projects/initvenv)
 
 **Standardizes function return values across Python applications to enhance code consistency, readability, and maintainability.**
 
